@@ -1,0 +1,139 @@
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center; /* Horizontally center karega */
+    align-items: center;     /* Vertically center karega */
+    min-height: 100vh;       /* Body ko poori screen ki height dega */
+    margin: 0;
+   
+}
+.first{
+    border: solid ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 750px;
+    background-color: bisque;
+    flex-direction: row-reverse;
+    gap: 60px;
+    box-sizing: border-box;
+}
+.image{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.emi{
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+
+
+}
+.pass{
+    text-size-adjust: 20px;
+    
+}
+.passwo{
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+}
+.button{
+    border-radius: 7px;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(227, 150, 56);
+
+
+}
+.button:hover{
+    background-color: rgb(102, 167, 167);
+}
+.link{
+    background-color: rgb(206, 184, 225);
+    height: 40px; 
+    width: 100px;
+    border-radius: 7px;
+    justify-content: center;
+    display: flex;
+    
+}
+.singup{
+    display: flex;
+    justify-content: center;
+
+}
+
+.singup-body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.sin{
+    height: 500px;
+    width: 600px;
+    background-color: bisque;
+    border: solid;
+    border-radius: 8px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+    
+    
+    
+
+}
+.name{
+    height: 40px;
+    width: 200px;
+    border-radius: 7px;
+    
+
+}
+.las{
+    height: 40px;
+    width: 200px;
+    border-radius: 7px;
+}
+.emo{
+    height: 40px;
+    width: 200px;
+    border-radius: 7px;
+
+}
+.password{
+    height: 40px;
+    width: 200px;
+    border-radius: 7px;
+}
+.retyp{
+     height: 40px;
+    width: 200px;
+    border-radius: 7px;
+}
+.butto{
+    height: 40px;
+    background-color: aquamarine;
+    width: 100px;
+}
+.butto:hover{
+    background-color: darkmagenta;
+}
+
